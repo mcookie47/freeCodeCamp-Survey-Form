@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-<h1 id="title">freecodeCamp Survey Form</h1>
-<p>Thank you for taking the time to help us improve the platform</p>
-</head>
+    <h1 id="title">freecodeCamp Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <link href="styles.css">
+    </head>
 <body>
+  <fieldset>
+  <form id="survey-form">
+    <label for="name">Name: <input id="name" type="text" required></label>
+    <label for="email">Email: <input id="email" type="email" required></label>
+    <label for="number">Age (optional)<input id="number" type="number"></label>
+    </fieldset>
   </body>
 </html>
